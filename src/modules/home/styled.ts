@@ -1,6 +1,13 @@
 import styled from "@emotion/styled";
 
 export const StyledDiv = styled.div`
-  display: flex;
-  justify-content: flex-start;
+  .navbar {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .languageSelect {
+    width: 100px;
+  }
 `;

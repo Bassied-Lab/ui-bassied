@@ -8,9 +8,10 @@ export const Home = () => {
 
   return (
     <StyledDiv>
-      <Container size="xl">
+      <Container size="xl" className="navbar">
         <Select
-          initiallyOpened
+          radius="xl"
+          className="languageSelect"
           size="xs"
           value={language}
           onChange={setLanguage}
@@ -22,6 +23,7 @@ export const Home = () => {
           icon={<GrLanguage />}
           rightSection={<MdKeyboardArrowDown />}
         />
+        <p>dsdsd</p>
       </Container>
     </StyledDiv>
   );
